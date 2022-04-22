@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fonts-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet Final</title>
+</head>
+<body>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+  </script>
+  <div class="container">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <img src="img/nova.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nos services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+
+          </div>
+      
+      </nav>
+        <div class="slider">
+           <img class="active" src="img/im1.jpg"> 
+             <img src="img/im2.jpg">    	
+            <img src="img/im3.jpg">   
+            <img src="img/im4.jpg">  
+           <img src="img/im5.jpg">    
+
+        </div>
+         <div class="cont-btn">
+          <div class="btn-nav left"> < </div>
+           <div class="btn-nav right"> > </div>
+     </div>
+    
+     </div>
+     <div class="container">
+       <div class="row">
+          <div class="col-md-4">
+              <img src="img/developpement.png"/>
+              <p>
+                <strong>Développement<br></strong> 
+               Nous concevon des logiciels, sites web, applications mobiles.
+              </p>
+         
+        </div>
+        <div class="col-md-4">
+             <img src="img/reseau.jpg"/>
+             <p>
+               <strong> Réseaux et Serveurs<br></strong> 
+              Nous intervenons aussi dans les domaines:
+               Réseaux, serveurs, cloud, télécoms
+             </p>
+
+         
+        </div>
+         <div class="col-md-4">
+         
+             <img src="img/energie.jpg"/>
+             <p>
+               <strong>Énergie et Électronique<br></strong> 
+               Nous faisons aussi des prestations dans les secteurs ci:
+               Électricité, énergies solaires, appareils électroniques
+             </p>
+
+        
+        </div>
+          
+        </div>
+      
+     </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"><img class="logo" src="img/nova.png"></div>
+          <div class="col-md-6">
+            <div class="accordeon">
+              <div class="contentBx">
+                  <div class="label">Qui sommes-nous? </div>
+                  <div class="content">
+                      <p>
+                          Nous proposons des solutions numériques innovantes axées sur les secteurs 
+                          clés du développement à savoir la santé, l’agriculture, l’éducation, 
+                          l’environnement et les services.
+                      </p>
+                  </div>
+              </div>
+              <div class="contentBx">
+                  <div class="label">Nos valeurs </div>
+                  <div class="content">
+                      <p>
+                          Passion, Qualité, Disponibilité, Innovation, Travail et Intégrité, 
+                          notre équipe jeune et dynamique œuvre sans relâche pour transformer 
+                          vos idées en véritables projets concrets à fort impact.
+                      </p>
+                  </div>
+              </div>
+              <div class="contentBx">
+                  <div class="label">Notre Engagement </div>
+                  <div class="content">
+                      <p>
+                          Devenir votre partenaire technologique fiable et durable en vue de vous apporter
+                           des solutions innovantes et efficaces pour tous vos besoins et problèmes 
+                           dans le domaine des TICs.
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+      
+     </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div id="Contact">
+              <h1>
+                          <u> contact</u>
+               </h1>
+                <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+                   <div class="form-style">
+                      
+                         <div class="td">    
+                            <label>
+                               Nom <span class="required">* </span>
+                            </label>
+                         
+                            <input type="text" name="name" class="long"/>
+                            <span class="error" id="errorname"></span>
+                       
+                          </div> 
+                          <div class="td">
+                            <label>
+                               E-mail <span class="required">*</span>
+                            </label>
+                        
+                            <input type="email" name="email" class="long"/>
+                            <span class="error" id="erroremail"></span>
+                           </div>
+                          <div class="td">
+                            <label>
+                               Message <span class="required">*</span>
+                            </label>
+                         
+                            <textarea name="message" class="long field-textarea"></textarea>
+                            <span class="error" id="errormsg"></span>
+                       
+                            <input type="submit" value="Envoyer">      
+                            <input type="reset" value="Réinitialiser"> 
+                          </div>
+                      
+                   </div>
+                </form>
+             </div>
+          </div>
+        </div>
+      </div>
+      <div class="localisation">
+        <h2>Localisation<br><br></h2>
+        <div class="frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.750398407917!2d2.086146515027372!3d13.550897490477771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11da9f940569cead%3A0x91f5f8ebd4598cf3!2sNOVATECH!5e0!3m2!1sfr!2sne!4v1650375159263!5m2!1sfr!2sne" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+      </div>
+      </div>
+  </div>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+<footer class="footer-area" style="background-color:#f8fbfb;padding-bottom:50px;padding-top:30px">
+  <div class="container">
+  <center>
+          <p style="text-align: center;">NOVATECH Niger est une entreprise Numérique spécialisée dans les Services Réseaux, Serveurs Cloud, Développement Web et Mobile, Formations &amp; Certifications, Énergie, Électronique et Consulting.</p>
+          <p class="lh-base">Niamey, Niger</p>
+          <p class="mb-0">Cel : +227 91 01 22 12<br> Email : contact@novatech.ne</p>
+    <br>
+          <div class="footer-social-icon align-items-center"><a target="_blank" href="https://www.facebook.com/novatechniger" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="bi bi-facebook"></i></a><a target="_blank" href="https://www.twitter.com/novatechniger" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="bi bi-twitter"></i></a><a target="_blank" href="https://www.instagram.com/novatechniger" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="bi bi-instagram"></i></a><a target="_blank" href="https://www.linkedin.com/company/novatechniger" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"><i class="bi bi-linkedin"></i></a></div>
+    </center>
+    <div class="copywrite-wrapper mt-5 rounded d-lg-flex align-items-lg-center justify-content-lg-between">
+      <div class="copywrite-text text-center text-lg-start mb-3 mb-lg-0 me-lg-4">
+        <p class="mb-0"><a href="/a-propos">NOVATECH Niger</a> - 2022 © Tous droits réservés.</p>
+      </div>
+      <div class="footer-nav mb-3 mb-lg-0 me-lg-4">
+        <ul class="mb-0 d-flex flex-wrap justify-content-center list-unstyled">
+          <li><a href="/a-propos">À propos</a></li> - 
+          <li><a href="/#references">Références</a></li>
+        </ul>
+      </div>
+      <div class="language-dropdown text-center text-lg-end">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Langue</button>
+        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="/?lang=en"><span class="me-2 flag-icon flag-icon-us"></span>English</a><a class="dropdown-item" href="/?lang=fr"><span class="me-2 flag-icon flag-icon-fr"></span>Français</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
